@@ -8,9 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-.eduarda{
-  border: #000;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .disabled {
   pointer-events: none;
@@ -41,7 +42,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
 }
 
 h1,
@@ -55,6 +56,10 @@ h6 {
   margin: 10px 0 10px 0;
   padding: 0;
   color: #1B100A;
+}
+
+footer h2{
+  color: white;
 }
 
 .main-page {
@@ -157,7 +162,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 100px;
+  height: 120px;
   position: relative;
   left: 0;
   top: 0;
@@ -325,7 +330,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3777e6;
+  background-color: #ffffff;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
