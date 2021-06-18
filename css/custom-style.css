@@ -225,6 +225,10 @@ footer {
     align-items: flex-start;
     width: 100%;
   }
+
+footer h2{
+  font-size: 1.7vw;
+}
   
   footer .container-footer {
     align-items: left;
@@ -232,7 +236,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     width: auto;
-    /*margin: 100px 0;*/
+    font-size: .85vw;
   }
 
   /*footer .container a, footer .container p{
@@ -302,6 +306,7 @@ footer .contato >img{
   
   footer .infos li p {
     width: 400px;
+    font-size: .85vw;
   }
   
   footer .infos img {
@@ -311,7 +316,6 @@ footer .contato >img{
   footer .infos a, footer .infos p {
     color: #fff;
     margin: 0;
-    /*margin-left: 20px;*/
   }
   
 
@@ -365,6 +369,26 @@ footer .contato >img{
     color: #fff;
     text-decoration: none;
   }
+
+@media (max-width: 1439px){
+  footer .infos li p {
+    width: 400px;
+    font-size: 1.05vw;
+  }
+
+  footer .container-footer {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+    font-size: 1.05vw;
+  }
+
+  footer h2{
+    font-size: 2vw;
+  }
+}
 
   /* INTEGRANTES */
 .title{
@@ -659,6 +683,14 @@ footer .contato >img{
   color: #000;
 }
 
+.sobre h2 {
+  font-size: 2vw;
+}
+
+.sobre p {
+  font-size: 1vw;
+}
+
 .titulo-pag {
   display: flex;
   flex-direction: row;
@@ -673,6 +705,10 @@ footer .contato >img{
   border-style: solid;
   border-width: 0 0 4px 0;
   border-color: #192D43;
+}
+
+.titulo-pag div h1 {
+  font-size: 2vw;
 }
 
 .conteudo {
@@ -699,6 +735,10 @@ footer .contato >img{
   background-color: #BAC5CD;
 }
 
+.titulo-noticia h2 {
+  font-size: 1.5vw;
+}
+
 .conteudo-noticia {
   display: flex;
   flex-direction: row;
@@ -719,5 +759,31 @@ footer .contato >img{
   color: #000;
   text-align: justify;
   padding: 15px;
-  font-size: 15px;
+  font-size: .9vw;
+}
+
+.tabela-doc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.tabela-doc table {
+  width: 70%;
+}
+
+.tabela-doc table th {
+  background-color: #BAC5CD;
+  color: #000;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.tabela-doc table td {
+  background-color: #E0E7EC;
+  color: #000;
+  font-size: 19px;
+  border: 1px solid black;
 }
