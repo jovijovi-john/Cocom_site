@@ -111,7 +111,7 @@ footer.fixar-rodape{
     background: #192D43;
     width: 100%;
     height: 100%;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 /*@media (min-height: 611px) {
@@ -226,7 +226,7 @@ footer {
     width: 100%;
   }
   
-  footer .container {
+  footer .container-footer {
     align-items: left;
     display: flex;
     flex-direction: column;
