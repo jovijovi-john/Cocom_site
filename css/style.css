@@ -175,14 +175,14 @@ footer h2{
   justify-content: center;
 }
 
-#header.header-scrolled,
+/*#header.header-scrolled,
 #header.header-fixed {
   background: #f6f7fd;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);/*sombra do menu de navegação*/
-}
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);/*sombra do menu de navegação
+}*/
 
 #header #logo h1 {
   font-size: 36px;
@@ -1798,7 +1798,7 @@ td, th {
   }
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   #header {
 
     background: white;
@@ -1835,7 +1835,7 @@ td, th {
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
-}
+}*/
 
 .schedule-day-title{
   padding-top: 15px;
