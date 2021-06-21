@@ -74,25 +74,43 @@
   </header>
   
   <main>
-    <section class="login">
-      <div class="header">Acesso</div>
+    <section class="cadastro">
+      <div class="header">Cadastro</div>
       <form action="">
-        <div class="login-input">
-          <span class="material-icons">
-            account_circle
-          </span>
-          <input type="login" placeholder="Login">
+        <div>
+          <label for="Name">Nome</label>
+          <input id="Name" type="name" placeholder="Nome">
         </div>
-        <div class="password-input">
-          <span class="material-icons">
-            vpn_key
-          </span>
-          <input type="password" name="" id="" placeholder="Senha">
+        <div>
+          <label for="CPF">CPF</label>
+          <input id="CPF" type="cpf" placeholder="CPF">
+        </div>
+        <div>
+          <label for="Código">Código</label>
+          <input id="Código" type="number" placeholder="Código">
+        </div>
+        <div>
+          <label for="Email">Email</label>
+          <input id="Email" type="email" placeholder="Email">
+        </div>
+        <div>
+          <label for="Senha">Senha</label>
+          <input id="Senha" type="password" placeholder="Senha">
+        </div>
+        <div>
+          <label for="Senha-Confirmacao">Confirme a senha</label>
+          <input id="Senha-Confirmacao" type="password" placeholder="Repita a senha">
+        </div>
+        <div>
+          <label for="Telefone">Telefone</label>
+          <input id="Telefone" type="phone" placeholder="Telefone">
+        </div>
+        <div>
+          <label for="Celular">Celular</label>
+          <input id="Celular" type="phone" placeholder="Celular">
         </div>
 
-        <button type="submit">Entrar</button>
-
-        <a href="./cadastro.html">Não tem cadastro?</a>
+        <button type="submit">Cadastro</button>
       </form>
     </section>
   </main>

@@ -705,6 +705,45 @@ main .login a {
   text-decoration: underline;
 }
 
+main .cadastro {
+  margin: 0 auto;
+  width: 60%;
+}
+
+main .cadastro .header {
+  background: #192D43;
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+}
+
+main .cadastro form {
+  align-items: center;
+  background: #0F1925;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 20px;
+}
+
+main .cadastro form div label {
+  width: 230px;
+}
+
+main .cadastro button {
+  border: none;
+  border-radius: 6px;
+  color: #0F1925;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 12px;
+  text-transform: uppercase;
+  width: 25%;
+}
+
 @media (max-width: 800px) {
 .modal > div {
   width: 90%;
