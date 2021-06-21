@@ -798,10 +798,6 @@ main .cadastro button {
   border-color: #192D43;
 }
 
-.titulo-pag div h1 {
-  /*font-size: 2vw;*/
-}
-
 .conteudo {
   display: flex;
   flex-direction: column;
@@ -816,7 +812,7 @@ main .cadastro button {
   align-items: stretch;
   background-color: #E0E7EC;
   height: 400px;
-  width: 65%;
+  width: 70%;
   border-radius: 3px;
   margin: 20px 0px 0px 0px;
 }
@@ -850,7 +846,7 @@ main .cadastro button {
   color: #000;
   text-align: justify;
   padding: 15px;
-  font-size: .9vw;
+  font-size: 14px;
 }
 
 .tabela-doc {
@@ -888,6 +884,12 @@ main .cadastro button {
   top: 0;
   margin: 20px 20px 0px 0px;
   z-index: 999;
+}
+
+@media (max-width: 1189px){
+  .conteudo-noticia img {
+    display: none;
+  }
 }
 
 @media (max-width: 811px){

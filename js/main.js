@@ -152,4 +152,3 @@ jQuery(document).ready(function( $ ) {
     $(".fixed-dropdown").attr("href", "competicoes.html")
   }
 });
-
