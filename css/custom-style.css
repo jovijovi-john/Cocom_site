@@ -216,8 +216,8 @@ footer.fixar-rodape{
   *{
     color: white;
     font-family: 'Courier Prime', monospace;
+  }
 
-}
 footer {
     background: #192D43;
     display: flex;
@@ -965,20 +965,29 @@ main .cadastro button {
 }*/
 
 .mySlides {
+  background-image: url(../img/slider_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 600px;
 }
 
 .slideshow-container {
+  
   max-width: 100%;
-  position: relative;
-  margin: auto;
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
+  /*position: absolute;
+  top: 50%;*/
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -990,13 +999,6 @@ main .cadastro button {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: #192D43;
   color: white;
@@ -1004,22 +1006,35 @@ main .cadastro button {
 
 /* Caption text */
 .text {
-  display: flex;
-  justify-content: center;
-  color: #192D43;
+  color: white;
+  font-size: 2rem;
+  padding: 8px 12px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.text p {
+  text-align: justify;
+  width: 72%;
+  margin: auto;
+}
+
+.text h1 {
+  color: white;
   font-size: 5rem;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 50%;
   width: 100%;
   text-align: center;
   font-weight: bold;
-  /*background-image: url("img/slider_background.jpg");*/
 }
 
 .layer {
-  background-color: black;
-  opacity: .5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .layer img {
@@ -1089,6 +1104,15 @@ main .cadastro button {
   .div-esq {
     font-size: 13px;
   }
+
+  .text h1 {
+    font-size: 3.5rem;
+  }
+
+  .text p {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media (max-width: 811px){
@@ -1116,6 +1140,17 @@ main .cadastro button {
   footer .infos {
     align-items: center;
   }
+
+  .text p{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 466px) {
+  .text h1 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 417px){
@@ -1130,6 +1165,10 @@ main .cadastro button {
 
   footer .infos h2 p, footer .container-footer h2 p {
     font-size: 25px;
+  }
+
+  .text p {
+    font-size: 1.4rem;
   }
 }
 
@@ -1146,8 +1185,7 @@ main .cadastro button {
 }
 
 @media (max-width: 369px){
-  /*#btn-menu-mobile {
-    position: sticky;
-    top 20px;
-  }*/
+  .text h1 {
+    font-size: 1.8rem;
+  }
 }
